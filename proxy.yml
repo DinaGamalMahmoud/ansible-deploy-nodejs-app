@@ -1,0 +1,6 @@
+---
+- name: configure httpd reverse proxy
+  hosts: proxy
+  become: true
+  roles:
+    - reverseproxy
